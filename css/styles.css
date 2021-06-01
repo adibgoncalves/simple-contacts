@@ -40,6 +40,10 @@
     color: #007bff;
 }
 
+.delete-form {
+    display: inline-block;
+}
+
 .delete-btn {
     background-color: transparent;
     border: none;
@@ -96,5 +100,12 @@
 #create-form,
 #edit-form {
     max-width: 500px;
-    margin: 0;
+    margin: 0 auto;
+}
+
+/* Mobile */
+@media(max-width: 480px) {
+    #home-link {
+        display: none;
+    }
 }
